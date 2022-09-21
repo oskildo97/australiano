@@ -9,6 +9,7 @@ module.exports = {
       'iris-gray-1': '#5C5C5C',
       'iris-gray-2': '#8E8E8E',
       'iris-gray-3': '#979797',
+      'iris-white': '#FFFFFF',
       'iris-white-1': '#EFEFEF',
       'iris-white-2': '#F5F5F5',
       'iris-white-3': '#FCFCFC',
