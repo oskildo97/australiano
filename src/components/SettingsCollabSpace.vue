@@ -4,8 +4,10 @@
             <!-- Collab space name -->
             <div class="grid grid-cols-8">
                 <div class="col-span-2">
-                    <h1>Collab space name</h1>
-                    <p>asdas dasdasd asd</p>
+                    <h1 class="text-iris-blue text-2xl not-italic mt-3 font-semibold">Collab space logo</h1>
+                    <p class="text-iris-blue opacity-20 text-sm ">Only filas with extensions PNG, JPG,SVG,
+                        PDF- MAX(5MB)
+                    </p>
                 </div>
                 <div class="col-span-6">
                     <div class="flex">
@@ -20,7 +22,7 @@
             <!-- Collab space logo -->
             <div class="grid grid-cols-8">
                 <div class="col-span-2">
-                    <h1>Collab space logo</h1>
+                    <h1 class="">Collab space logo</h1>
                     <p>asdas dasdasd asd</p>
                 </div>
                 <div class="col-span-6">
