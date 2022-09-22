@@ -19,6 +19,7 @@ module.exports = {
       'iris-green-soft': '#D8F5C3;',
       'iris-green-softer' :'#D0ECF2',
       'iris-red': '#C7374E',
+      'iris-light-red': '#FC4C59',
       'iris-pink': '#C63D7A',
       'iris-blue': '#2F5190',
       'iris-super-light-blue': '#F5F6FA',
@@ -37,10 +38,12 @@ module.exports = {
       'iris-aquamarine': '#7FFFD4',
       'iris-au-chico': '#97605D',
       'iris-bandicoot': '#858470',
+      'iris-grey-border': '#D6DDE8',
       //Gradients
       'grad-login-start': '#013673',
       'grad-login-end': '#165898',
-    }
+
+  }
   },
   variants: {
     extend: {
