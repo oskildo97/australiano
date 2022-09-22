@@ -11,6 +11,7 @@
         <toolbar-collab-space />
         <settings-collab-space />
         <add-collage-space-member />
+        <LicensesResume/>
     </div>
   </div>
 </template>
@@ -22,6 +23,7 @@
   import ToolbarCollabSpace from './components/ToolbarCollabSpace'
   import SettingsCollabSpace from './components/SettingsCollabSpace'
   import AddCollageSpaceMember from './components/AddCollageSpaceMember'
+  import LicensesResume from './components/LicensesResume.vue'
 
   export default {
       components: {
@@ -30,7 +32,8 @@
           AddMembersAttachFile,
           ToolbarCollabSpace,
           SettingsCollabSpace,
-          AddCollageSpaceMember
+          AddCollageSpaceMember,
+          LicensesResume
       },
   }
 </script>
