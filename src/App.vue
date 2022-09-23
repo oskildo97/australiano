@@ -1,19 +1,37 @@
 <template>
-  <div style="width: 50%; margin-left: 10%;" class="mt-4">
+    <div class="grid grid-cols-7 gap-6 py-6 px-4  ">
+        <div class="col-span-2 ">
+            <div class="bg-iris-rounded-lg">
+                <!-- Team Owner Information -->
+                <div class="col-span-6 ">
+                    <h3 class="text-iris-blue p-3 text-2xl font-normal  ">New space</h3>
 
-    <div class="bg-blue flex justify-center items-center w-full">
-  <!-- <div class="bg-clip-padding p-5 bg-iris-blue border-4 border-iris-blue border-round"> -->
-        <label for="dropzone-file"> <!--class="bg-clip-padding p-5 bg-violet-600 border-4 border-violet-300 border-dashed"-->
-          <div class="flex flex-col justify-center items-center pt-3 pb-3">
-              <svg aria-hidden="true" class="mb-8 w-12 h-10 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
-              <p class="mb-2 text-sm text-gray-500">Add members here - Attachyour file or drag it here</p>
-              <p class="font-sans ...">Add members here - Attachyour file or drag it here</p>
-          </div>
-          <input id="dropzone-file" type="file" class="hidden" />
-       </label>
+                    <div class="flex items-center ">
+                        <img class="w-11 h-11 rounded-full object-cover m-3" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="Team Image">
+                        <div class="ml-1 leading-tight">
+                            <div class=" font-bold text-iris-blue text-2xl" > You'll  be the obwner</div>
+                            <div class=" font-  text-gray-700 text-base text-iris-blue">juan steban</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Name -->
+                <div class="col-span-6 sm:col-span-4">
+                    
+                    <div class="flex ">
+                        <input type="text" id="first_name" class="flex-initial w-96 bg-iris-soft text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 m-3" placeholder="Space name" required>
+                        <button type="button" class="flex-initial w-14 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-1 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            <svg aria-hidden="true" class="fill-current bg-iris-green text-iris-white-2 rounded-full mx-1 " fill="currentcolor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span class="sr-only">Icon description</span>
+                        </button>
+                    </div>            
+                    <div class="flex justify-center">
+                        <button type="button" class="text-iris-white-2 bg-iris-blue hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-12 mb-4 ml-12 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 m-3 grow h-13 "> create a space </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-  </div>
 </template>
 
 <script>
