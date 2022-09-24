@@ -103,3 +103,7 @@
         </div>
     </div> 
 </template>  
+
+<style>
+    @import '../assets/tailwind.css';  
+  </style>
